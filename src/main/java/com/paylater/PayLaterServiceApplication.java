@@ -16,6 +16,5 @@ public class PayLaterServiceApplication {
         ctx.getBean(IPlatformUserService.class);
         ctx.getBean(IPlatformAccountService.class);
         ctx.getBean(IPlatformPaymentService.class);
-        ctx.getBean(IPlatformMerchantService.class);
     }
 }
